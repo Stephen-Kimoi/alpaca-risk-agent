@@ -70,3 +70,7 @@ Restart your Claude session after adding a new MCP server — tools registered m
 ## A note on paper trading
 
 `ALPACA_PAPER=true` in `.env` and the CLI profile defaulting to paper trading are both load-bearing — this project has only ever been run against `https://paper-api.alpaca.markets`. Flip to live trading at your own risk and only after you've read Alpaca's live-trading requirements.
+
+---
+
+This is the companion repo for the [lablab.ai](https://lablab.ai) tutorial *"A Trading Agent That Sizes Its Own Risk and Explains Itself, Built on Alpaca's CLI and MCP Server"* — read it for the full walkthrough of why each piece here is shaped the way it is.
